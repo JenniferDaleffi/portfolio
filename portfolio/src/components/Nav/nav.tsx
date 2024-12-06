@@ -6,7 +6,7 @@ export default function Nav() {
                 <button>PORTUGUÊS</button>
             </div>
             <div className="mr-10 flex gap-24 mt-5">
-                <a href="">SOBRE</a>
+                <a href="#sobre">SOBRE</a>
                 <a href="">CURRÍCULO</a>
                 <a href="">PROJETOS</a>
                 <a href="">CONTATO</a>
