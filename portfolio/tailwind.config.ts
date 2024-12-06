@@ -13,6 +13,7 @@ export default {
         foreground: "var(--foreground)",
         'cinza':'#292929',
         'bege': '#ddd9ce',
+        'acizentado': '#f5f5f5',
       },
     },
   },
