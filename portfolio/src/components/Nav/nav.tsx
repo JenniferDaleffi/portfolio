@@ -7,7 +7,7 @@ export default function Nav() {
             </div>
             <div className="mr-10 flex gap-24 mt-5">
                 <a href="">SOBRE</a>
-                <a href="">CURRÍCULO</a>
+                <a href="">CURRÍCUL</a>
                 <a href="">PROJETOS</a>
                 <a href="">CONTATO</a>
             </div>
