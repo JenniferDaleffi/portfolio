@@ -3,6 +3,7 @@ import JenniFoto from "../../public/jennifer.jpg"
 import Nav from "../components/Nav/nav"
 import Sobre from "../components/Sobre/sobre"
 import Github from "../../public/github.png"
+import Profissional from "../components/Profissional/profissional"
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         </div>
       </div>
       <Sobre/>
+      <Profissional/>
     </div>
   );
 }
