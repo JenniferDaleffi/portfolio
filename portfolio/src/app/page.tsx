@@ -5,7 +5,7 @@ import Sobre from "../components/Sobre/sobre"
 import Github from "../../public/github.png"
 import Profissional from "../components/Profissional/profissional"
 import Projetos from "../components/Projetos/projetos"
-
+import Contato from "../components/Contato/contato"
 
 export default function Home() {
   return (
@@ -28,6 +28,7 @@ export default function Home() {
       <Sobre/>
       <Profissional/>
       <Projetos/>
+      <Contato/>
     </div>
   );
 }
