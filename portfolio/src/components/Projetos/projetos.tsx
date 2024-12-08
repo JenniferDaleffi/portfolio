@@ -23,7 +23,7 @@ const projetos = [
         descricao:
             "Desenvolvimento de um sistema de gestão integrada para oficinas automotivas em parceria com a Porto Seguro.",
         imagem: FixerAI,
-        link: "/",
+        link: "/projects/fixerai",
         
     },
     {
@@ -32,7 +32,7 @@ const projetos = [
         descricao:
             "Proposta para integrar iniciativas de reciclagem com o transporte fluvial de forma sustentável.",
         imagem: Recicla,
-        link: "https://github.com/FixerAI/Frontend",
+        link: "/projects/recicla",
     },
     {
         id: 3,
@@ -40,7 +40,7 @@ const projetos = [
         descricao:
             "Portfólio grupal com notas, feedbacks e design estilizado para mostrar o desempenho acadêmico.",
         imagem: PortfolioEstudantes,
-        link: "https://github.com/FixerAI/Frontend",
+        link: "/projects/portfolioestudantes",
     },
     {
         id: 4,
@@ -48,7 +48,7 @@ const projetos = [
         descricao:
             "Transição para sistemas de transporte público movidos a fontes renováveis de energia.",
         imagem: Verde,
-        link: "https://github.com/FixerAI/Frontend",
+        link: "/projects/verde",
     },
     {
         id: 5,
@@ -56,7 +56,7 @@ const projetos = [
         descricao:
             "Plataforma de networking B2B para encontros anônimos em eventos, bares e happy hours.",
         imagem: Work,
-        link: "https://github.com/FixerAI/Frontend",
+        link: "/projects/work",
     },
     {
         id: 6,
@@ -64,7 +64,7 @@ const projetos = [
         descricao:
             "Implementação do jogo da velha com 3 modos de dificuldade em Python.",
         imagem: Jogo,
-        link: "https://github.com/FixerAI/Frontend",
+        link: "/projects/jogo",
     },
 ];
 
@@ -77,7 +77,7 @@ export default function Projetos() {
     );
 
     return (
-        <div className="flex flex-col bg-cinza text-white p-10 items-center">
+        <div id="projetos" className="flex flex-col bg-cinza text-white p-10 items-center">
             <h1 className="text-4xl mb-5 mt-5">Meus Projetos</h1>
             {/* Barra de pesquisa */}
             <div className="relative w-full max-w-xl mb-10 mt-5">

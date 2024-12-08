@@ -6,13 +6,13 @@ import Github from "../../public/github.png"
 import Profissional from "../components/Profissional/profissional"
 import Projetos from "../components/Projetos/projetos"
 import Contato from "../components/Contato/contato"
+import Footer from "../components/Footer/footer"
 
 export default function Home() {
   return (
     <div>
       <div className="bg-cinza text-white h-screen">
-        <Nav/>
-        <div className="flex justify-around mt-32 items-center">
+        <div className="flex justify-around pt-20 items-center">
           <div className="w-80">
             <h2 className="text-4xl text-bege">Olá, meu nome é:</h2>
             <h1 className="text-5xl mt-5 mb-5">Jennifer Daleffi</h1>
@@ -29,6 +29,7 @@ export default function Home() {
       <Profissional/>
       <Projetos/>
       <Contato/>
+      <Footer/>
     </div>
   );
 }

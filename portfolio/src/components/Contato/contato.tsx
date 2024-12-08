@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Contato(){
     return(
-        <div className="bg-bege h-screen">
+        <div id="contato" className="bg-bege h-screen">
             <div className="w-full flex justify-center">
                 <h1 className="text-4xl text-bege mt-20 mb-10 text-cinza">Contato</h1>
             </div>
