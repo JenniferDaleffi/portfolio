@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Jennifer3 from "../../../public/jennifer3.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 
