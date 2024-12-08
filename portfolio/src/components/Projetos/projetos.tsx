@@ -100,6 +100,7 @@ export default function Projetos() {
                     projetosFiltrados.map((projeto) => (
                         <Link href={projeto.link}
                         key={projeto.id}
+                        className="hover:scale-110 hover:duration-300"
                         >
                         <div
                             className="border-2 border-bege rounded-md bg-cinza"
