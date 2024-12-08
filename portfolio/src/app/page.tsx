@@ -1,6 +1,5 @@
 import Image from "next/image";
 import JenniFoto from "../../public/jennifer.jpg"
-import Nav from "../components/Nav/nav"
 import Sobre from "../components/Sobre/sobre"
 import Github from "../../public/github.png"
 import Profissional from "../components/Profissional/profissional"

@@ -1,7 +1,6 @@
 import Image from "next/image"
 import work from "../../../../public/work_resized.jpg"
 import work2 from "../../../../public/work2.png"
-import work3 from "../../../../public/work3.png"
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
