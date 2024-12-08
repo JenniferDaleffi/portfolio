@@ -10,7 +10,7 @@ import Work from "../../../public/work_resized.jpg";
 import PortfolioEstudantes from "../../../public/portfolioestudantes_resized.png";
 import Jogo from "../../../public/jogo_resized.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import Link from "next/link";
 
 
@@ -98,9 +98,10 @@ export default function Projetos() {
             <section className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 {projetosFiltrados.length > 0 ? (
                     projetosFiltrados.map((projeto) => (
-                        <Link href={projeto.link}>
+                        <Link href={projeto.link}
+                        key={projeto.id}
+                        >
                         <div
-                            key={projeto.id}
                             className="border-2 border-bege rounded-md bg-cinza"
                         >
                             <Image
