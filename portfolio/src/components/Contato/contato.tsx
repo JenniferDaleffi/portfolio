@@ -8,7 +8,7 @@ export default function Contato(){
     return(
         <div id="contato" className="bg-bege h-screen">
             <div className="w-full flex justify-center">
-                <h1 className="text-4xl text-bege mt-20 mb-10 text-cinza">Contato</h1>
+                <h1 className="text-4xl text-bege mb-20 text-cinza">Contato</h1>
             </div>
             <div className="flex justify-center gap-80 items-center">
                 <div>

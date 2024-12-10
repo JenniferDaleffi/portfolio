@@ -4,6 +4,7 @@ import Sobre from "../components/Sobre/sobre"
 import Github from "../../public/github.png"
 import Profissional from "../components/Profissional/profissional"
 import Projetos from "../components/Projetos/projetos"
+import Academico from "../components/Academico/academico";
 import Contato from "../components/Contato/contato"
 import Footer from "../components/Footer/footer"
 
@@ -16,7 +17,7 @@ export default function Home() {
             <h2 className="text-4xl text-bege">Olá, meu nome é:</h2>
             <h1 className="text-5xl mt-5 mb-5">Jennifer Daleffi</h1>
             <p className="mb-5">Estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento back-end Java e Infra & DevOps</p>
-            <button className="border-2 border-solid border-bege bg-bege w-32 p-2 rounded-md text-cinza hover:bg-transparent hover:text-bege transition duration-500">Contate-me</button>
+            <button className="border-2 border-solid border-bege bg-bege w-44 p-2 rounded-md text-cinza hover:bg-transparent hover:text-bege transition duration-500">Contate-me</button>
           </div>
           <div className="flex flex-col items-center">
             <Image className="bg-bege rounded-full w-96 h-96 mb-5" src={JenniFoto} alt="minha foto"></Image>
@@ -27,6 +28,7 @@ export default function Home() {
       <Sobre/>
       <Profissional/>
       <Projetos/>
+      <Academico/>
       <Contato/>
       <Footer/>
     </div>

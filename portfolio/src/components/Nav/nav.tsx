@@ -9,6 +9,7 @@ export default function Nav() {
             </div>
             <div className="mr-10 flex gap-24 mt-5 mb-5">
                 <Link href="/">SOBRE</Link>
+                <Link href="/#academico">ACADÊMICO</Link>
                 <Link href="/#profissional">PROFISSIONAL</Link>
                 <Link href="/#projetos">PROJETOS</Link>
                 <Link href="/#contato">CONTATO</Link>
