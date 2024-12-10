@@ -17,7 +17,7 @@ export default function Profissional() {
                 <div className="border-solid border-2 border-cinza w-96 h-96 p-5 rounded-xl bg-transparent shadow-slate-700 shadow-lg flex flex-col justify-between items-center hover:scale-110 hover:duration-300">
                     <h1 className="text-2xl">Experiência</h1>
                     <p className="text-center break-all">Minha experiência profissional na área de tecnologia tem sido essencial para agregar valor ao setor de desenvolvimento. Trabalhei com empresas reais, aplicando meus conhecimentos em projetos práticos, enfrentando desafios e contribuindo para soluções que geraram resultados significativos. Essa vivência me permitiu aprimorar habilidades técnicas e colaborar com equipes, sempre focado em entregar impacto positivo para o setor.</p>
-                    <button className="border-2 border-solid border-cinza bg-cinza p-5 rounded-lg w-40 text-white hover:bg-transparent hover:text-cinza transition duration-500">Experiência</button>
+                    <Link href="/experiencias" className="border-2 border-solid border-cinza bg-cinza p-5 rounded-lg w-40 text-white hover:bg-transparent hover:text-cinza transition duration-500 text-center">Experiência</Link>
                 </div>
             </div>
         </div>
