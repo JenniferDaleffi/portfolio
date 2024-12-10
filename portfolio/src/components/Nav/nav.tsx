@@ -8,10 +8,10 @@ export default function Nav() {
                 <button>PORTUGUÊS</button>
             </div>
             <div className="flex flex-wrap justify-center gap-24 mt-10 mb-5 xl:mr-5">
-                <Link href="/">SOBRE</Link>
-                <Link href="/#academico">ACADÊMICO</Link>
-                <Link href="/#profissional">PROFISSIONAL</Link>
+                <Link href="/">HOME</Link>
+                <Link href="/#sobre">SOBRE</Link>
                 <Link href="/#projetos">PROJETOS</Link>
+                <Link href="/#academico">ACADÊMICO</Link>
                 <Link href="/#contato">CONTATO</Link>
             </div>
         </div>
