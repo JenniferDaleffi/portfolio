@@ -11,16 +11,16 @@ import Footer from "../components/Footer/footer"
 export default function Home() {
   return (
     <div>
-      <div className="bg-cinza text-white h-screen">
-        <div className="flex justify-around pt-20 items-center">
-          <div className="w-80">
+      <div className="bg-cinza text-white">
+        <div className="flex justify-center text-center md:text-left md:justify-around pt-20 items-center flex-wrap">
+          <div className="w-80 mb-32 md:mb-52">
             <h2 className="text-4xl text-bege">Olá, meu nome é:</h2>
             <h1 className="text-5xl mt-5 mb-5">Jennifer Daleffi</h1>
             <p className="mb-5">Estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento back-end Java e Infra & DevOps</p>
             <button className="border-2 border-solid border-bege bg-bege w-44 p-2 rounded-md text-cinza hover:bg-transparent hover:text-bege transition duration-500">Contate-me</button>
           </div>
-          <div className="flex flex-col items-center">
-            <Image className="bg-bege rounded-full w-96 h-96 mb-5" src={JenniFoto} alt="minha foto"></Image>
+          <div className="mt-20 flex flex-col items-center flex-wrap mb-52">
+            <Image className="bg-bege rounded-full w-80 h-80 mb-5" src={JenniFoto} alt="minha foto"></Image>
             <a href="https://github.com/JenniferDaleffi"><Image src={Github} alt="icone do github"></Image></a>
           </div>
         </div>

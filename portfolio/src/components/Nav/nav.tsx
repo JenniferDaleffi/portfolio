@@ -3,11 +3,11 @@ import Link from "next/link"
 export default function Nav() {
     return(
         <>
-        <div className="flex justify-between text-xl bg-cinza text-bege">
-            <div className="mt-5 ml-10">
+        <div className="flex flex-wrap gap-24 justify-center text-xl bg-cinza text-bege xl:justify-between">
+            <div className="mt-10 xl:mt-10 xl:ml-5">
                 <button>PORTUGUÊS</button>
             </div>
-            <div className="mr-10 flex gap-24 mt-5 mb-5">
+            <div className="flex flex-wrap justify-center gap-24 mt-10 mb-5 xl:mr-5">
                 <Link href="/">SOBRE</Link>
                 <Link href="/#academico">ACADÊMICO</Link>
                 <Link href="/#profissional">PROFISSIONAL</Link>

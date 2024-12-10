@@ -107,10 +107,8 @@ export default function Projetos() {
                         >
                             <Image
                                 src={projeto.imagem}
-                                alt={`Imagem do projeto ${projeto.titulo}`}
-                                width={600}
-                                height={300}
-                                className="rounded-md"
+                                alt={`Imagem do projeto ${projeto.titulo}`}                   
+                                className="rounded-md w-full h-48 object-cover"
                             />
                             <div className="p-5">
                                 <h1 className="text-center text-bege text-2xl mt-5 mb-5">
