@@ -13,13 +13,13 @@ import { IoLogoVercel } from "react-icons/io5";
 
 export default function Fixerai() {
     return (
-        <div className="flex justify-around mt-20">
-            <div className="w-96">
+        <div className="flex flex-wrap justify-around mt-20">
+            <div className="w-96 ml-5 mr-5">
                 <Link href="/#projetos"><FaArrowLeft className="text-2xl mb-5" /></Link>
                 <h1 className="text-3xl font-bold">WorkBeer</h1>
                 <p className="mt-5 text-lg">O projeto consiste em uma plataforma de networking (B2B), onde profissionais e empresas irão se conectar em Eventos propostos pela Própria plataforma.Um projeto desafiador proposto pelo Movimento de Inovação Digital (MID), que são parceiros da FIAP. Foi desenvolvido em 2 meses, se tratando de uma rede social inovadora focada em proporcionar encontros anônimos entre pessoas com interesses semelhantes, especialmente para aqueles que gostam de explorar bares e happy hours.
                 </p>
-                <div className="flex gap-5 mt-10">
+                <div className="flex flex-wrap gap-5 mt-10">
                     <FaHtml5 className="text-5xl" />
                     <FaCss3Alt className="text-5xl" />
                     <IoLogoJavascript className="text-5xl" />
@@ -34,7 +34,7 @@ export default function Fixerai() {
                     <h1 className="mb-5">Lucas Feliciano - Responsável pelo design e pelo Figma do projeto.</h1>
                 </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-wrap ml-5 mr-5 mb-10 flex-col items-center">
                 <Image className="mb-10 rounded-xl border-2 border-black border-solid" width={500} src={work} alt="imagem do projeto fixer"></Image>
                 <Image className="mb-10 rounded-xl border-2 border-black border-solid" width={500} src={work2} alt="imagem do projeto fixer"></Image>
                 <div className="flex gap-5">

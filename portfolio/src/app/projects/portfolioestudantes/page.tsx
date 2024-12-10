@@ -13,12 +13,12 @@ import { IoLogoVercel } from "react-icons/io5";
 
 export default function Fixerai(){
     return(
-        <div className="flex justify-around mt-20">
-            <div className="w-96">
+        <div className="flex flex-wrap justify-around mt-20">
+            <div className="w-96 ml-5 mr-5">
                 <Link href="/#projetos"><FaArrowLeft className="text-2xl mb-5"/></Link>
                 <h1 className="text-3xl font-bold">Portfolio dos Estudantes</h1>
                 <p className="mt-5 text-lg">No contexto acadêmico, um portfólio individual é amplamente utilizado por profissionais para apresentar projetos, habilidades e experiências. Contudo, e se um portfólio pudesse reunir o desempenho coletivo e individual de um grupo de estudantes? Essa foi a proposta desenvolvida em parceria com meus colegas Leonardo Cadena e Julia Vasconcelos. Nosso desafio foi criar um portfólio inovador que destacasse o progresso acadêmico de cada integrante de maneira organizada e visualmente atrativa.Estrutura do Portfólio: Nosso projeto foi estruturado em três seções principais, refletindo diferentes aspectos do aprendizado ao longo do curso.</p>
-                <div className="flex gap-5 mt-10">
+                <div className="flex flex-wrap gap-5 mt-10">
                     <RiNextjsFill className="text-5xl"/>
                     <SiTypescript className="text-5xl"/>
                     <RiTailwindCssFill className="text-5xl"/>
@@ -33,7 +33,7 @@ export default function Fixerai(){
                     <h1 className="mb-5">Leonardo Cadena - Responsável pelo back-end em TypeScript.</h1>
                 </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-wrap ml-5 mr-5 mb-10 flex-col items-center">
                 <Image className="mb-10 rounded-xl border-2 border-black border-solid" width={500} src={portfolioestudantes} alt="imagem do projeto fixer"></Image>
                 <Image className="mb-10 rounded-xl border-2 border-black border-solid" width={500} src={portfolioestudantes2} alt="imagem do projeto fixer"></Image>
                 <div className="flex gap-5">
