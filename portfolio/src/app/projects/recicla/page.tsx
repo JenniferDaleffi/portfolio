@@ -14,7 +14,7 @@ export default function Fixerai() {
         <div className="flex justify-around mt-20">
             <div className="w-96">
                 <Link href="/#projetos"><FaArrowLeft className="text-2xl mb-5" /></Link>
-                <h1 className="text-3xl">ReciclaBalsa</h1>
+                <h1 className="text-3xl font-bold">ReciclaBalsa</h1>
                 <p className="mt-5 text-lg">A sustentabilidade é uma questão central no desenvolvimento urbano contemporâneo. A cidade de São Paulo, um dos maiores centros urbanos do Brasil, enfrenta desafios significativos relacionados ao transporte e ao gerenciamento de resíduos. O projeto ReciclaBalsa: Transporte Marítimo Sustentável para a Região de São Paulo propõe de forma multidisciplinar contendo uma base de dados, python, java, frontend, business model e inteligência artificial a criação que facilite a integração de iniciativas de reciclagem com o transporte fluvial, visando promover práticas sustentáveis e reduzir a emissão de poluentes.
                 </p>
                 <div className="flex gap-5 mt-10">

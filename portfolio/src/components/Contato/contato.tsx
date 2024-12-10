@@ -21,7 +21,7 @@ export default function Contato(){
                 </div>
                 <div className="text-cinza text-xl flex flex-col w-80">
                     <div className="w-72">     
-                        <h1 className="text-3xl mb-5 border-b border-cinza text-center">Me mande um email</h1>
+                        <h1 className="text-3xl mb-5 border-b border-cinza text-center w-64">Me mande um email</h1>
                     </div>
                     <p>Nome</p>
                     <input className="p-3 mt-2 rounded-lg" type="text" placeholder="Digite seu nome" />

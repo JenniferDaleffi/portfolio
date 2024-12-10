@@ -71,7 +71,7 @@ const projetos = [
 export default function Projetos() {
     const [search, setSearch] = useState("");
 
-    // Filtragem com base no input de pesquisa
+
     const projetosFiltrados = projetos.filter((projeto) =>
         projeto.titulo.toLowerCase().includes(search.toLowerCase())
     );
@@ -79,7 +79,7 @@ export default function Projetos() {
     return (
         <div id="projetos" className="flex flex-col bg-cinza text-white p-10 items-center">
             <h1 className="text-4xl mb-5 mt-5">Meus Projetos</h1>
-            {/* Barra de pesquisa */}
+            {}
             <div className="relative w-full max-w-xl mb-10 mt-5">
                 <input
                     type="text"

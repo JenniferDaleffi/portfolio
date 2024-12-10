@@ -16,7 +16,7 @@ export default function Fixerai() {
         <div className="flex justify-around mt-20">
             <div className="w-96">
                 <Link href="/#projetos"><FaArrowLeft className="text-2xl mb-5" /></Link>
-                <h1 className="text-3xl">WorkBeer</h1>
+                <h1 className="text-3xl font-bold">WorkBeer</h1>
                 <p className="mt-5 text-lg">O projeto consiste em uma plataforma de networking (B2B), onde profissionais e empresas irão se conectar em Eventos propostos pela Própria plataforma.Um projeto desafiador proposto pelo Movimento de Inovação Digital (MID), que são parceiros da FIAP. Foi desenvolvido em 2 meses, se tratando de uma rede social inovadora focada em proporcionar encontros anônimos entre pessoas com interesses semelhantes, especialmente para aqueles que gostam de explorar bares e happy hours.
                 </p>
                 <div className="flex gap-5 mt-10">

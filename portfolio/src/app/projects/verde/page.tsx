@@ -15,7 +15,7 @@ export default function Fixerai() {
         <div className="flex justify-around mt-20">
             <div className="w-96">
                 <Link href="/#projetos"><FaArrowLeft className="text-2xl mb-5" /></Link>
-                <h1 className="text-3xl">VerdeVias</h1>
+                <h1 className="text-3xl font-bold">VerdeVias</h1>
                 <p className="mt-5 text-lg">O projeto VerdeVias prioriza a transição para sistemas de transporte público movidos a fontes renováveis de energia, como a energia solar e elétrica, reduzindo a dependência de combustíveis fósseis. Nossa equipe busca assegurar que os requisitos técnicos e operacionais sejam otimizados, garantindo um funcionamento sustentável e eficiente. Para isso, são adotadas metodologias ágeis, facilitando o monitoramento de cada etapa do desenvolvimento da solução e promovendo uma gestão flexível e colaborativa.
                 </p>
                 <div className="flex gap-5 mt-10">

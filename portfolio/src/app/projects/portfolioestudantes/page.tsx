@@ -16,7 +16,7 @@ export default function Fixerai(){
         <div className="flex justify-around mt-20">
             <div className="w-96">
                 <Link href="/#projetos"><FaArrowLeft className="text-2xl mb-5"/></Link>
-                <h1 className="text-3xl">Portfolio dos Estudantes</h1>
+                <h1 className="text-3xl font-bold">Portfolio dos Estudantes</h1>
                 <p className="mt-5 text-lg">No contexto acadêmico, um portfólio individual é amplamente utilizado por profissionais para apresentar projetos, habilidades e experiências. Contudo, e se um portfólio pudesse reunir o desempenho coletivo e individual de um grupo de estudantes? Essa foi a proposta desenvolvida em parceria com meus colegas Leonardo Cadena e Julia Vasconcelos. Nosso desafio foi criar um portfólio inovador que destacasse o progresso acadêmico de cada integrante de maneira organizada e visualmente atrativa.Estrutura do Portfólio: Nosso projeto foi estruturado em três seções principais, refletindo diferentes aspectos do aprendizado ao longo do curso.</p>
                 <div className="flex gap-5 mt-10">
                     <RiNextjsFill className="text-5xl"/>

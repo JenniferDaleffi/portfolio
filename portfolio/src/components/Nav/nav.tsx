@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Nav() {
     return(
         <>
@@ -6,10 +8,10 @@ export default function Nav() {
                 <button>PORTUGUÊS</button>
             </div>
             <div className="mr-10 flex gap-24 mt-5 mb-5">
-                <a href="#sobre">SOBRE</a>
-                <a href="#profissional">PROFISSIONAL</a>
-                <a href="#projetos">PROJETOS</a>
-                <a href="#contato">CONTATO</a>
+                <Link href="/">SOBRE</Link>
+                <Link href="/#profissional">PROFISSIONAL</Link>
+                <Link href="/#projetos">PROJETOS</Link>
+                <Link href="/#contato">CONTATO</Link>
             </div>
         </div>
     </>

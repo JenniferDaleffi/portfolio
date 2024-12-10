@@ -11,7 +11,7 @@ export default function Fixerai(){
         <div className="flex justify-around mt-20">
             <div className="w-96">
                 <Link href="/#projetos"><FaArrowLeft className="text-2xl mb-5"/></Link>
-                <h1 className="text-3xl">Jogo da Velha</h1>
+                <h1 className="text-3xl font-bold">Jogo da Velha</h1>
                 <p className="mt-5 text-lg">Este projeto é uma implementação do jogo da velha (Tic-Tac-Toe) em Python, desenvolvido como parte do Checkpoint 4 do curso TADS da FIAP. O jogo pode ser jogado em três modos: Jogador X vs Jogador O - Dois jogadores humanos jogam um contra o outro. Jogador X vs Máquina (Fácil) - Um jogador humano enfrenta uma máquina com estratégia fácil. Jogador X vs Máquina (Difícil) - Um jogador humano enfrenta uma máquina com estratégia difícil.</p>
                 <div className="flex gap-5 mt-10">
                     <FaPython className="text-5xl"/>

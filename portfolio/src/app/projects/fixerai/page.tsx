@@ -14,7 +14,7 @@ export default function Fixerai(){
         <div className="flex justify-around mt-20">
             <div className="w-96">
                 <Link href="/#projetos"><FaArrowLeft className="text-2xl mb-5"/></Link>
-                <h1 className="text-3xl">FixerAI</h1>
+                <h1 className="text-3xl font-bold">FixerAI</h1>
                 <p className="mt-5 text-lg">O presente trabalho propõe o desenvolvimento de um sistema de gestão integrada para oficinas automotivas, em parceria com a Faculdade de Informática e Administração Paulista e a Porto Seguro, com o objetivo de otimizar os processos relacionados ao reparo e manutenção de veículos. O sistema visa oferecer uma solução completa e eficiente para as necessidades do setor, abrangendo desde o agendamento de serviços até o acompanhamento pós atendimento.</p>
                 <div className="flex gap-5 mt-10">
                     <FaJava className="text-5xl"/>
