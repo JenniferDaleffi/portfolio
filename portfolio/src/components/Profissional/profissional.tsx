@@ -12,7 +12,7 @@ export default function Profissional() {
                 <div className="border-solid border-2 border-cinza w-96 h-96 p-5 rounded-xl bg-transparent shadow-slate-700 shadow-lg flex flex-col justify-between items-center hover:scale-110 hover:duration-300">
                     <h1 className="text-2xl">Certificados</h1>
                     <p className="text-center break-all">Neste quadro, apresento todos os certificados que conquistei ao longo dos meus anos de estudo, adquiridos em plataformas renomadas como Alura, FIAP, PUCRS, Rockseat, Udemy, entre outras. Cada certificação reflete o meu compromisso contínuo com o aprendizado e o aprimoramento das minhas habilidades na área de tecnologia. Além disso, compartilho o conhecimento que venho adquirindo aplicando o que aprendi para gerar impacto positivo no setor.</p>
-                    <Link href="/projects/certificados" className="border-2 border-solid border-cinza bg-cinza p-5 rounded-lg w-40 text-white hover:bg-transparent hover:text-cinza transition duration-500 text-center">Certificados</Link>
+                    <Link href="/certificados" className="border-2 border-solid border-cinza bg-cinza p-5 rounded-lg w-40 text-white hover:bg-transparent hover:text-cinza transition duration-500 text-center">Certificados</Link>
                 </div>
                 <div className="border-solid border-2 border-cinza w-96 h-96 p-5 rounded-xl bg-transparent shadow-slate-700 shadow-lg flex flex-col justify-between items-center hover:scale-110 hover:duration-300">
                     <h1 className="text-2xl">Experiência</h1>

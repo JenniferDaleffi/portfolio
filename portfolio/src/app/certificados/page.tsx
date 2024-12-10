@@ -2,17 +2,17 @@
 
 
 import { FaArrowLeft  } from "react-icons/fa";
-import Excel from "../../../../public/excel.jpg"
-import PowerApps from "../../../../public/powerapps.jpg"
-import PowerAutomate from "../../../../public/powerautomate.jpg"
-import PowerBi from "../../../../public/powerbi.jpg"
-import Git from "../../../../public/git.jpg"
-import Algoritmos from "../../../../public/algoritmos.jpg"
-import Analise from "../../../../public/analise.jpg"
-import Computador from "../../../../public/computador.jpg"
-import JavaCertificado from "../../../../public/javacertificado.jpg"
-import SqlCertificado from "../../../../public/sql.jpg"
-import Industria from "../../../../public/industria.jpg"
+import Excel from "../../../public/excel.jpg"
+import PowerApps from "../../../public/powerapps.jpg"
+import PowerAutomate from "../../../public/powerautomate.jpg"
+import PowerBi from "../../../public/powerbi.jpg"
+import Git from "../../../public/git.jpg"
+import Algoritmos from "../../../public/algoritmos.jpg"
+import Analise from "../../../public/analise.jpg"
+import Computador from "../../../public/computador.jpg"
+import JavaCertificado from "../../../public/javacertificado.jpg"
+import SqlCertificado from "../../../public/sql.jpg"
+import Industria from "../../../public/industria.jpg"
 import { useState } from "react";
 import Link from "next/link";
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
