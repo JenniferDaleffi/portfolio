@@ -12,7 +12,7 @@ export default function Contato(){
             </div>
             <div className="flex flex-wrap justify-center gap-20 xl:gap-80 items-center">
                 <div>
-                    <Image className="w-72" src={Jennifer3} alt="foto da jennifer"></Image>
+                    <Image className="w-64 md:w-96" src={Jennifer3} alt="foto da jennifer"></Image>
                     <div className="flex flex-wrap justify-center gap-5 mt-5">
                     <a target="_blank" href="https://github.com/JenniferDaleffi"><FaGithub className="text-4xl" /></a>
                     <a target="_blank" href="https://linkedin.com/in/jenniferdaleffi"><FaLinkedin className="text-4xl"/></a>
