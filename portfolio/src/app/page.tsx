@@ -17,7 +17,7 @@ export default function Home() {
             <h2 className="text-4xl text-bege">Olá, meu nome é:</h2>
             <h1 className="text-5xl mt-5 mb-5">Jennifer Daleffi</h1>
             <p className="mb-5">Estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento back-end Java e Infra & DevOps</p>
-            <button className="border-2 border-solid border-bege bg-bege w-44 p-2 rounded-md text-cinza hover:bg-transparent hover:text-bege transition duration-500">Contate-me</button>
+            <a href="#contato"><button className="border-2 border-solid border-bege bg-bege w-44 p-2 rounded-md text-cinza hover:bg-transparent hover:text-bege transition duration-500">Contate-me</button></a>
           </div>
           <div className="mt-20 flex flex-col items-center flex-wrap mb-52">
             <Image className="bg-bege rounded-full w-80 h-80 mb-5" src={JenniFoto} alt="minha foto"></Image>
