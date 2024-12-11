@@ -92,7 +92,7 @@ export default function Certificados() {
             <div className="p-4">
                 <div className="mb-10 mt-10">
                     <div className="lg:ml-10">
-                    <Link href="/"><FaArrowLeft className="text-2xl mb-2 cursor-pointer mr-2" /></Link>
+                    <Link href="/#profissional"><FaArrowLeft className="text-2xl mb-2 cursor-pointer mr-2" /></Link>
                     <h1 className="text-3xl font-bold text-cinza border-b border-cinza w-40 mb-5">Certificados</h1>
                     </div>
                     <div className="flex justify-center">

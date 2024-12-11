@@ -7,7 +7,7 @@ export default function Experiencia(){
     return(
         <div className="">
             <div className="ml-12 lg:ml-20 mt-10">
-            <Link href="/"><FaArrowLeft className="text-2xl mb-2"/></Link>
+            <Link href="/#profissional"><FaArrowLeft className="text-2xl mb-2"/></Link>
             <h1 className="text-3xl">Experiência</h1>
             </div>
             <div className="flex justify-center mb-10">
