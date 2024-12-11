@@ -99,7 +99,7 @@ export default function Certificados() {
                     <div className="relative w-full max-w-xl">
                         <input
                             type="text"
-                            placeholder="Pesquisar projetos..."
+                            placeholder="Pesquisar certificados..."
                             value={search}
                             onChange={(e) => setSearch(e.target.value)}
                             className="p-3 w-full border-2 border-bege rounded-md text-black pl-10"
