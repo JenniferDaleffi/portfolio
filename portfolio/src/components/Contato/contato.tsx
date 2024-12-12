@@ -24,10 +24,10 @@ const EmailForm = () => {
           "GxOVIPogiW09Fvqgy" 
         )
         .then(
-          (result) => {
+          () => {
             alert("E-mail enviado com sucesso!");
           },
-          (error) => {
+          () => {
             alert("Erro ao enviar o e-mail. Tente novamente.");
           }
         );
@@ -59,7 +59,7 @@ const EmailForm = () => {
 
                 <label className="mb-2 mt-5 text-xl">Mensagem</label>
                 <textarea className="p-3 mt-2 h-44 rounded-lg" name="message" required />
-                
+
                 <div className="flex flex-wrap justify-center">
                 <button className="border-2 border-solid border-cinza text-xl bg-cinza w-32 text-bege p-3 w-24 mt-5 rounded-lg hover:bg-transparent hover:text-cinza transition duration-500" type="submit">Enviar</button>
                 </div>
