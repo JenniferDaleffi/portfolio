@@ -35,7 +35,7 @@ const EmailForm = () => {
   };
 
   return (
-    <div>
+    <div id="contato">
         <div className="w-full flex flex-wrap justify-center">
             <h1 className="text-4xl text-bege mb-20 text-cinza">Contato</h1>
         </div>
