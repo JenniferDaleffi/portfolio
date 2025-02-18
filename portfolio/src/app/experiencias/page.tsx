@@ -17,7 +17,7 @@ export default function Experiencia(){
                         <h1 className="mt-5 text-center text-xl font-bold">B3 - Brasil, Bolsa, Balcão</h1>
                         <p className="text-center">Fevereiro de 2025</p>
                         <p className="text-center mb-5">Função: Estágio em Infraestrutura</p>
-                        <p className="">Estou atuando como estagiária na área de Sustentação de Infraestrutura da B3, onde tenho a oportunidade de desenvolver minhas habilidades em tecnologia e contribuir para a manutenção e evolução da infraestrutura que garante a segurança e disponibilidade das operações. Fazer parte de uma das maiores instituições financeiras do país tem sido uma experiência incrível, repleta de aprendizado e crescimento..</p>   
+                        <p className="">Estou atuando como estagiária na área de Sustentação de Infraestrutura da B3, onde tenho a oportunidade de desenvolver minhas habilidades em tecnologia e contribuir para a manutenção e evolução da infraestrutura que garante a segurança e disponibilidade das operações. Fazer parte de uma das maiores instituições financeiras do país tem sido uma experiência incrível, repleta de aprendizado e crescimento.</p>   
                     </div>       
                 </div>
             </div>
